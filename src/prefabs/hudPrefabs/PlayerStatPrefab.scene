@@ -1,0 +1,213 @@
+{
+    "id": "117e2301-2d0b-499a-a393-5f11cc727482",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 335,
+        "borderHeight": 163
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eeeae50-cccd-4e44-aef8-05b5016d5309",
+            "label": "container_1",
+            "x": 5,
+            "y": 5,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "3319ec7b-15d6-4416-9934-3d6d71c6dd83",
+                    "label": "alertContainer",
+                    "scope": "CLASS",
+                    "x": -4,
+                    "y": -6,
+                    "scaleX": 0.75,
+                    "scaleY": 1.3,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "88669ae7-470b-4cc3-9059-aa893e7f3c5c",
+                            "label": "bg",
+                            "x": 222,
+                            "y": 83,
+                            "scaleX": 2.0245452627539473,
+                            "scaleY": 1.1294206458894107,
+                            "isFilled": true,
+                            "fillColor": "#847e87",
+                            "width": 213,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "be92a9ec-75a7-4656-ab95-2b4557814a76",
+                            "label": "leftBottom",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 8
+                            },
+                            "x": 31.560062772588587,
+                            "y": 137.5600627725886
+                        },
+                        {
+                            "type": "Image",
+                            "id": "927a361f-3de6-4b2d-9795-51ebcc2ae474",
+                            "label": "leftRight",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 4
+                            },
+                            "x": 31,
+                            "y": 82
+                        },
+                        {
+                            "type": "Image",
+                            "id": "74ccc999-b63d-4da0-be9a-1a0cdc5b640d",
+                            "label": "leftTop",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 0
+                            },
+                            "x": 31.560062772588587,
+                            "y": 31.560062772588587
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6410923b-7aeb-452c-8e63-1abc79a5aaf2",
+                            "label": "bottomMiddle",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 9
+                            },
+                            "x": 223.56006658728586,
+                            "y": 137.5600627725886,
+                            "scaleX": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1204d695-3445-4f29-bc99-2a6033f44cde",
+                            "label": "topMiddle",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 1
+                            },
+                            "x": 223.56006658728586,
+                            "y": 31.560062772588587,
+                            "scaleX": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "efff412c-9288-4105-986a-7ba0cc84eba8",
+                            "label": "rightBottom",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 10
+                            },
+                            "x": 414.56006658728586,
+                            "y": 136.5600627725886
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1ae50e65-a291-4214-b613-d13c48ad4ffb",
+                            "label": "rightSide",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 6
+                            },
+                            "x": 414,
+                            "y": 84
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2c7a693d-e15a-4ac4-b006-68c3d87e2d99",
+                            "label": "rightTop",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 2
+                            },
+                            "x": 414.56006658728586,
+                            "y": 31.560062772588587
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "c8302956-5a2a-4e2c-957e-b00da2aa8f39",
+                    "label": "addressStat",
+                    "scope": "CLASS",
+                    "x": 71,
+                    "y": 32,
+                    "text": "Player: 0x7c...z212f"
+                },
+                {
+                    "type": "Text",
+                    "id": "f2256196-535d-47c4-8ecd-5bbc1bf294e8",
+                    "label": "energyStat",
+                    "scope": "CLASS",
+                    "x": 105,
+                    "y": 57,
+                    "text": "Energy: 14/14"
+                },
+                {
+                    "type": "Text",
+                    "id": "53ff433a-90f5-4cc9-9cde-cf119b3e433e",
+                    "label": "harvestingLevelStat",
+                    "scope": "CLASS",
+                    "x": 71,
+                    "y": 82,
+                    "text": "Harvesting Level : 0"
+                },
+                {
+                    "type": "Text",
+                    "id": "81319cb0-dd9f-475c-922b-fac0f559d0a9",
+                    "label": "harvestingExpStat",
+                    "scope": "CLASS",
+                    "x": 61.5,
+                    "y": 132,
+                    "text": "Harvesting Exp : 0/100"
+                },
+                {
+                    "type": "Text",
+                    "id": "f82c1979-6b9a-42aa-b7e8-3c884c36348c",
+                    "label": "fishingLevelStat",
+                    "scope": "CLASS",
+                    "x": 85.5,
+                    "y": 107,
+                    "text": "Fishing Level : 0"
+                },
+                {
+                    "type": "Text",
+                    "id": "0f3fb512-1c17-4096-ac91-eb9aa0ff437e",
+                    "label": "FishingExpStat",
+                    "scope": "CLASS",
+                    "x": 76,
+                    "y": 157,
+                    "text": "Fishing Exp : 0/100"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "player",
+            "label": "Player",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

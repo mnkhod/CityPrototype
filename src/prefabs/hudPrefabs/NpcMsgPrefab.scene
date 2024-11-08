@@ -1,0 +1,146 @@
+{
+    "id": "d5c174c8-e64c-4871-96de-59ed8f80e811",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 445,
+        "borderHeight": 125
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "9dbdd042-d479-4ca2-b72e-2b983ca7f8b3",
+            "label": "container_1",
+            "components": [
+                "NpcMessageComponent"
+            ],
+            "NpcMessageComponent.msgContainer": "alertContainer",
+            "x": -0.6837310997207666,
+            "y": -0.18995226416497957,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "6ee79c19-27e1-4557-9510-2c5f256de7d9",
+                    "label": "alertContainer",
+                    "scope": "CLASS",
+                    "x": 1.1236683065129753,
+                    "y": 0.6298900777532097,
+                    "ArcadeComponent.active": true,
+                    "moves": false,
+                    "allowGravity": false,
+                    "pushable": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "b27cd425-cd19-401c-90a5-88e10eca6213",
+                            "label": "bg",
+                            "x": 222,
+                            "y": 61,
+                            "scaleX": 2.0245452627539473,
+                            "scaleY": 0.8430356063794083,
+                            "isFilled": true,
+                            "fillColor": "#847e87",
+                            "width": 213,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6716c329-7d09-4081-b83e-52861152926d",
+                            "label": "leftTop",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 0
+                            },
+                            "x": 31.560062772588587,
+                            "y": 31.560062772588587
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fa0df696-2096-49ef-a9b4-b4312e9467bb",
+                            "label": "topMiddle",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 1
+                            },
+                            "x": 223.56006658728586,
+                            "y": 31.560062772588587,
+                            "scaleX": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bd8eabea-8abf-4708-ae08-a1c4b1ae3531",
+                            "label": "rightTop",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 2
+                            },
+                            "x": 414.56006658728586,
+                            "y": 31.560062772588587
+                        },
+                        {
+                            "type": "Image",
+                            "id": "48ce6566-08bd-4013-a296-63b3e2465062",
+                            "label": "leftBottom",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 8
+                            },
+                            "x": 31.560062772588587,
+                            "y": 94.5600627725886
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b2e8c287-7499-4b60-98b5-6cf466d84ed3",
+                            "label": "bottomMiddle",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 9
+                            },
+                            "x": 223.56006658728586,
+                            "y": 94.5600627725886,
+                            "scaleX": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "27b2deaa-6490-478e-aecd-9961ca07d994",
+                            "label": "rightBottom",
+                            "texture": {
+                                "key": "AlertTileset",
+                                "frame": 10
+                            },
+                            "x": 414.56006658728586,
+                            "y": 93.5600627725886
+                        },
+                        {
+                            "type": "BitmapText",
+                            "id": "351c2c84-bf5d-4246-88c4-632370285ab3",
+                            "label": "alertMessage",
+                            "scope": "CLASS",
+                            "x": 222.5,
+                            "y": 55.5,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "tintFill": true,
+                            "text": "New text",
+                            "font": "Little Malio 8 Bit",
+                            "align": 1,
+                            "fontSize": 8,
+                            "letterSpacing": 6,
+                            "maxWidth": 250,
+                            "dropShadowColor": "#000000ff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

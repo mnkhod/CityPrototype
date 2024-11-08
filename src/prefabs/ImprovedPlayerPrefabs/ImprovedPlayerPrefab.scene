@@ -1,0 +1,93 @@
+{
+    "id": "de8e13c8-57c8-4143-9374-0da399f76dee",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapWidth": 97.25021763087013,
+        "snapHeight": 96.83347842058008,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2080,
+        "borderHeight": 2080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "85edddec-f974-45e9-b1d6-303ae2699eea",
+            "label": "container_1",
+            "x": 32.69156956627587,
+            "y": 20.25347042047675,
+            "ArcadeComponent.active": true,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "pushable": false,
+            "body.width": 28,
+            "body.height": 55,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "9ddc32e6-e49f-456d-9cb3-0b31c6389178",
+                    "label": "playerBody",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ImprovedPlayer",
+                        "frame": 0
+                    },
+                    "x": 15.308429722345409,
+                    "y": 27.746528871751043,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8ea970bd-afe1-4014-9634-014430882879",
+                    "label": "playerHair",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "PlayerHair01",
+                        "frame": 0
+                    },
+                    "x": 15.308429722345409,
+                    "y": 27.746528871751043,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "cdedf887-d86b-42f1-889a-cd3a600889b7",
+                    "label": "playerOutfit",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "PlayerOutfit01",
+                        "frame": 0
+                    },
+                    "x": 15.308429722345409,
+                    "y": 27.746528871751043,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9d9784d0-6403-4607-befe-458b2ad07f12",
+                    "label": "playerItem",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "FishingRodAnimSet",
+                        "frame": 36
+                    },
+                    "x": 15.308429722345409,
+                    "y": 27.746528871751043,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,718 @@
+{
+    "section1": {
+        "files": [
+            {
+                "textureURL": "assets/fonts/8bit Arcade.png",
+                "fontDataURL": "assets/fonts/8bit Arcade.xml",
+                "type": "bitmapFont",
+                "key": "8bit Arcade"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/AlertPrefab.js",
+                "type": "script",
+                "key": "AlertPrefab"
+            },
+            {
+                "url": "assets/huds/AlertTileset.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 32,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "AlertTileset"
+            },
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/huds/Backpack.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Backpack"
+            },
+            {
+                "url": "assets/Boat.PNG",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Boat"
+            },
+            {
+                "url": "assets/huds/Book.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Book"
+            },
+            {
+                "url": "assets/huds/ButtonConnect.png",
+                "frameConfig": {
+                    "frameWidth": 145,
+                    "frameHeight": 84,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ConnectButton"
+            },
+            {
+                "url": [
+                    "assets/music/Eterna Forest.mp3"
+                ],
+                "type": "audio",
+                "key": "Eterna Forest"
+            },
+            {
+                "url": "assets/FarmCrops.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmCrops"
+            },
+            {
+                "url": "assets/npcs/Farmer.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Farmer"
+            },
+            {
+                "url": "assets/FarmToolAnimation.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmToolAnimation"
+            },
+            {
+                "url": "src/components/FiberComponent.js",
+                "type": "script",
+                "key": "FiberComponent"
+            },
+            {
+                "url": "src/prefabs/FiberPrefab.js",
+                "type": "script",
+                "key": "FiberPrefab"
+            },
+            {
+                "url": "assets/npcs/Fisher.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 48,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fisher"
+            },
+            {
+                "url": "src/prefabs/npcPrefabs/FisherPrefab.js",
+                "type": "script",
+                "key": "FisherPrefab"
+            },
+            {
+                "url": "assets/tiles/Fishing Deck.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 102,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fishing Deck"
+            },
+            {
+                "url": "src/prefabs/tilePrefabs/FishingAreaPrefab.js",
+                "type": "script",
+                "key": "FishingAreaPrefab"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/FishingGameHudPrefab.js",
+                "type": "script",
+                "key": "FishingGameHudPrefab"
+            },
+            {
+                "url": "assets/fishing/FishingHairAnimSet.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingHairAnimSet"
+            },
+            {
+                "url": "assets/huds/FishingHud.png",
+                "type": "image",
+                "key": "FishingHud"
+            },
+            {
+                "url": "assets/huds/FishingHudBackground.png",
+                "type": "image",
+                "key": "FishingHudBackground"
+            },
+            {
+                "url": "assets/fishing/FishingRodAnimSet.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingRodAnimSet"
+            },
+            {
+                "url": "assets/items/FishingRodItem.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingRodItem"
+            },
+            {
+                "url": "assets/FishingScene.json",
+                "type": "tilemapTiledJSON",
+                "key": "FishingSceneMap"
+            },
+            {
+                "url": "assets/FishingTileAnim.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingTileAnim"
+            },
+            {
+                "url": "assets/tiles/FishingTilset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingTilset"
+            },
+            {
+                "url": "assets/items/FishItem.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishItem"
+            },
+            {
+                "url": "assets/Flower.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower"
+            },
+            {
+                "url": "src/components/GameCameraComponent.js",
+                "type": "script",
+                "key": "GameCameraComponent"
+            },
+            {
+                "url": "assets/Pixel Gates.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Gates"
+            },
+            {
+                "url": "assets/tiles/GroundTileset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundTileset"
+            },
+            {
+                "url": "src/prefabs/npcPrefabs/HarvestNpcPrefab.js",
+                "type": "script",
+                "key": "HarvestNpcPrefab"
+            },
+            {
+                "url": "assets/HarvestSceneMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "HarvestSceneMap"
+            },
+            {
+                "url": "assets/tiles/HarvestTiles.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HarvestTiles"
+            },
+            {
+                "url": "assets/huds/HudBackgrounds.png",
+                "type": "image",
+                "key": "HudBackgrounds"
+            },
+            {
+                "url": "assets/huds/HudExitButtons.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HudExitButtons"
+            },
+            {
+                "url": "assets/huds/HudInventoryBackground.png",
+                "type": "image",
+                "key": "HudInventoryBackground"
+            },
+            {
+                "url": "assets/huds/HudInventoryBox.png",
+                "type": "image",
+                "key": "HudInventoryBox"
+            },
+            {
+                "url": "assets/huds/HudItemSlot.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HudItemSlot"
+            },
+            {
+                "url": "assets/improvedPlayer/ImprovedPlayer.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ImprovedPlayer"
+            },
+            {
+                "url": "src/prefabs/ImprovedPlayerPrefabs/ImprovedPlayerPrefab.js",
+                "type": "script",
+                "key": "ImprovedPlayerPrefab"
+            },
+            {
+                "url": "assets/introMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "introMap"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/InventoryPrefab.js",
+                "type": "script",
+                "key": "InventoryPrefab"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/ItemHudPrefab.js",
+                "type": "script",
+                "key": "ItemHudPrefab"
+            },
+            {
+                "url": "assets/items/ItemSeedBag.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ItemSeedBag"
+            },
+            {
+                "url": "assets/huds/ItemSlot.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ItemSlot"
+            },
+            {
+                "url": "src/components/LevelHudComponent.js",
+                "type": "script",
+                "key": "LevelHudComponent_1"
+            },
+            {
+                "textureURL": "assets/fonts/Little Malio 8 Bit.png",
+                "fontDataURL": "assets/fonts/Little Malio 8 Bit.xml",
+                "type": "bitmapFont",
+                "key": "Little Malio 8 Bit"
+            },
+            {
+                "url": "assets/npcs/Merchant.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Merchant"
+            },
+            {
+                "url": "assets/tiles/MultiTileset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MultiTileset"
+            },
+            {
+                "url": "src/components/NpcComponent.js",
+                "type": "script",
+                "key": "NpcComponent"
+            },
+            {
+                "url": "src/components/NpcMessageComponent.js",
+                "type": "script",
+                "key": "NpcMessageComponent"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/NpcMsgPrefab.js",
+                "type": "script",
+                "key": "NpcMsgPrefab"
+            },
+            {
+                "url": "assets/tiles/PixelFarmTileset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PixelFarmTileset"
+            },
+            {
+                "url": "assets/Player.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Player"
+            },
+            {
+                "url": "src/components/PlayerCryptoAddressComponent.js",
+                "type": "script",
+                "key": "PlayerCryptoAddressComponent"
+            },
+            {
+                "url": "assets/fishing/PlayerFishingAnimSet.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerFishingAnimSet"
+            },
+            {
+                "url": "assets/fishing/PlayerFishingOutfitAnimSet.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerFishingOutfitAnimSet"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerHair01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHair01"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerHair02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHair02"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerHair03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHair03"
+            },
+            {
+                "url": "src/components/PlayerMovementComponent.js",
+                "type": "script",
+                "key": "PlayerMovementComponent"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerOutfit01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerOutfit01"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerOutfit02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerOutfit02"
+            },
+            {
+                "url": "assets/improvedPlayer/PlayerOutfit03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerOutfit03"
+            },
+            {
+                "url": "src/prefabs/hudPrefabs/PlayerStatPrefab.js",
+                "type": "script",
+                "key": "PlayerStatPrefab"
+            },
+            {
+                "url": [
+                    "assets/music/Prof Rowan Laboratory.mp3"
+                ],
+                "type": "audio",
+                "key": "Prof Rowan Laboratory"
+            },
+            {
+                "url": [
+                    "assets/music/Santalune Forest.mp3"
+                ],
+                "type": "audio",
+                "key": "Santalune Forest"
+            },
+            {
+                "url": "assets/huds/TitleScreen.png",
+                "type": "image",
+                "key": "TitleScreen"
+            },
+            {
+                "url": "assets/tiles/TransparentLayer.png",
+                "type": "image",
+                "key": "TransparentLayer"
+            },
+            {
+                "url": "assets/TreeBasic.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeBasic"
+            },
+            {
+                "url": "assets/TreeBig.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeBig"
+            },
+            {
+                "url": "assets/TreeSmall.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeSmall"
+            },
+            {
+                "url": [
+                    "assets/music/Unwavering Emotions.mp3"
+                ],
+                "type": "audio",
+                "key": "Unwavering Emotions"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

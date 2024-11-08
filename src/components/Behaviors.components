@@ -1,0 +1,141 @@
+{
+    "components": [
+        {
+            "name": "GameCameraComponent",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "ScriptNode",
+            "properties": [
+                {
+                    "name": "player",
+                    "label": "Player",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PlayerCryptoAddressComponent",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": [
+                {
+                    "name": "player",
+                    "label": "Player",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "NpcMessageComponent",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "ScriptNode",
+            "properties": [
+                {
+                    "name": "msgContainer",
+                    "label": "msgContainer",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "NpcComponent",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "player",
+                    "label": "Player",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                },
+                {
+                    "name": "msgContainer",
+                    "label": "Msg Container",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                },
+                {
+                    "name": "npcMessage",
+                    "label": "Npc Message",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "onConversationComplete",
+                    "label": "Conversation Complete Event",
+                    "tooltip": "",
+                    "defValue": "() => console.log(\"default complete event\")",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "Function"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LevelHudComponent",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "player",
+                    "label": "Player",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    }
+}

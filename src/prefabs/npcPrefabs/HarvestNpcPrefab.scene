@@ -1,0 +1,50 @@
+{
+    "id": "bdc6581b-b609-4460-96f9-8b4d09db95ae",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "aad6ba65-3d0c-48d2-84d2-8e01134ca26c",
+            "label": "sprite_1",
+            "components": [
+                "NpcComponent"
+            ],
+            "texture": {
+                "key": "Farmer",
+                "frame": 0
+            },
+            "x": 24,
+            "y": 24,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "animationPlayMethod": 1,
+            "animationKey": "FarmerIdleAnimFarmer"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "msg",
+            "label": "Message",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

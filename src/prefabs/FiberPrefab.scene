@@ -1,0 +1,36 @@
+{
+    "id": "bdbf8735-a335-4391-a79c-8f5cfd039b0f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2080,
+        "borderHeight": 2080
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "ab855427-bc63-4eac-bc82-c46750bd32f1",
+            "label": "sprite_1",
+            "components": [
+                "FiberComponent"
+            ],
+            "texture": {
+                "key": "FarmCrops",
+                "frame": 19
+            },
+            "x": 16,
+            "y": 16,
+            "scaleX": 2,
+            "scaleY": 2
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

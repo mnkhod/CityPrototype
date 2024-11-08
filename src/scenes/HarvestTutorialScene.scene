@@ -1,0 +1,369 @@
+{
+    "id": "84fda1e0-3458-4cfe-b0d0-14925530ece3",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "HarvestTutorialScene",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "a29304ed-ed0c-432c-babc-f9ee5131054d",
+            "label": "bgLayer",
+            "scope": "CLASS",
+            "y": 1,
+            "scaleX": 2.0063314872640334,
+            "scaleY": 1.1244824515483554,
+            "tilemapId": "d0799c35-babf-48c3-bcd2-42ae35ad75fc",
+            "layerName": "BackgroundLayer",
+            "tilesets": [
+                "MultiTileset",
+                "GroundTileset",
+                "PixelFarmTileset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "8de35a2e-21f8-40b6-b8e8-7cb4549d3691",
+            "label": "terrainLayer",
+            "scope": "CLASS",
+            "x": 510,
+            "y": 60,
+            "tilemapId": "d0799c35-babf-48c3-bcd2-42ae35ad75fc",
+            "layerName": "TerrainLayer",
+            "tilesets": [
+                "MultiTileset",
+                "GroundTileset",
+                "PixelFarmTileset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "2bde5c19-97b6-4818-ab65-1e8a96fea2ae",
+            "label": "farmingLayer",
+            "scope": "CLASS",
+            "x": 510,
+            "y": 61,
+            "tilemapId": "d0799c35-babf-48c3-bcd2-42ae35ad75fc",
+            "layerName": "FramingArea",
+            "tilesets": [
+                "MultiTileset",
+                "GroundTileset",
+                "PixelFarmTileset"
+            ]
+        },
+        {
+            "prefabId": "bdc6581b-b609-4460-96f9-8b4d09db95ae",
+            "id": "2cb0d437-f789-49a9-ad27-3fe2ec9eed79",
+            "unlock": [
+                "x",
+                "y",
+                "NpcComponent.player",
+                "NpcComponent.msgContainer",
+                "msg",
+                "NpcComponent.onConversationComplete"
+            ],
+            "label": "harvestNpcPrefab",
+            "scope": "CLASS",
+            "msg": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "NpcComponent.player": "player",
+            "NpcComponent.msgContainer": "npcMsgPrefab",
+            "NpcComponent.onConversationComplete": "() => this.harvestNpcConversationDone()",
+            "x": 874,
+            "y": 517
+        },
+        {
+            "prefabId": "bdbf8735-a335-4391-a79c-8f5cfd039b0f",
+            "id": "426a4409-ab9e-428a-92e6-ed269cec003a",
+            "unlock": [
+                "x",
+                "y",
+                "FiberComponent.player",
+                "FiberComponent.itemHud",
+                "FiberComponent.alert"
+            ],
+            "label": "fiberPrefab",
+            "FiberComponent.player": "player",
+            "FiberComponent.itemHud": "itemHudPrefab",
+            "FiberComponent.alert": "alertPrefab",
+            "x": 1118,
+            "y": 532
+        },
+        {
+            "prefabId": "bdbf8735-a335-4391-a79c-8f5cfd039b0f",
+            "id": "ef3dcdd5-5989-429a-acf2-de3a02dc20fb",
+            "unlock": [
+                "x",
+                "y",
+                "FiberComponent.player",
+                "FiberComponent.itemHud",
+                "FiberComponent.alert"
+            ],
+            "label": "fiberPrefab_1",
+            "FiberComponent.player": "player",
+            "FiberComponent.itemHud": "itemHudPrefab",
+            "FiberComponent.alert": "alertPrefab",
+            "x": 1119,
+            "y": 584
+        },
+        {
+            "type": "Text",
+            "id": "5a875efc-5f90-4f4e-8e1c-0647c271576d",
+            "label": "playerCryptoAddress",
+            "scope": "CLASS",
+            "components": [
+                "PlayerCryptoAddressComponent"
+            ],
+            "PlayerCryptoAddressComponent.player": "player",
+            "x": 34,
+            "y": 7,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "New text",
+            "fontSize": "14px"
+        },
+        {
+            "type": "Sprite",
+            "id": "926786c6-5779-4832-9ce3-7d74358efa81",
+            "label": "gate",
+            "scope": "CLASS",
+            "texture": {
+                "key": "Gates",
+                "frame": 11
+            },
+            "x": 821,
+            "y": 375,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "allowGravity": false,
+            "body.width": 128,
+            "body.height": 128,
+            "animationPlayMethod": 1,
+            "animationKey": "FishingSceneGateAnimGates",
+            "animationPreview": true
+        },
+        {
+            "prefabId": "235e9979-4cf4-46e2-8330-052a16de08f5",
+            "id": "cd3f177c-555d-4d21-8e0a-1071d6fa1d50",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "smallTreePrefab",
+            "x": 953,
+            "y": 327
+        },
+        {
+            "prefabId": "d80bff30-2d5c-4935-8261-84551266fa39",
+            "id": "2c07a345-0166-4781-8fd7-560ab536b9a2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bigTreePrefab",
+            "x": 1154,
+            "y": 333
+        },
+        {
+            "prefabId": "bbfd919b-3775-40fa-bbe7-2d45b319fe32",
+            "id": "cae7448a-ae3a-41d8-9812-edd717aac832",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "basicTreePrefab",
+            "x": 1018,
+            "y": 698
+        },
+        {
+            "prefabId": "de8e13c8-57c8-4143-9374-0da399f76dee",
+            "id": "0b94a8e9-e2b0-47c2-8584-ba624ff8aaf7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [
+                "PlayerMovementComponent"
+            ],
+            "x": 817,
+            "y": 630
+        },
+        {
+            "prefabId": "bfd2e8a8-fb50-4c16-91b4-ed2854b81109",
+            "id": "0d45dd3a-15a2-4e83-96cf-c799fd0c61de",
+            "unlock": [
+                "x",
+                "y",
+                "LevelHudComponent.player",
+                "inventory"
+            ],
+            "label": "itemHudPrefab",
+            "scope": "CLASS",
+            "inventory": "inventoryPrefab",
+            "LevelHudComponent.player": "player",
+            "x": 1570.8000000906975,
+            "y": 996.900010874052
+        },
+        {
+            "prefabId": "d5c174c8-e64c-4871-96de-59ed8f80e811",
+            "id": "0fa7fc9f-def6-46da-9b22-6feff6cde8de",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "npcMsgPrefab",
+            "x": -0.6837352579401568,
+            "y": 0.8100544149114057
+        },
+        {
+            "prefabId": "e8fb5036-6f22-45ff-b701-31e84070a020",
+            "id": "2173d447-e65a-486c-8d6d-19eb2fd51d34",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "alertPrefab",
+            "scope": "CLASS",
+            "x": 1760.492614612736,
+            "y": -2.0074139378888987
+        },
+        {
+            "prefabId": "117e2301-2d0b-499a-a393-5f11cc727482",
+            "id": "68e6d7f4-b44f-460a-a910-bab098ea4c36",
+            "unlock": [
+                "x",
+                "y",
+                "player",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "playerStatPrefab",
+            "player": "player",
+            "x": 2.597965656686199,
+            "y": 3.943157154532116,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "prefabId": "4c08108e-0c2f-48ce-b9c4-b6d43aa39591",
+            "id": "4aba4584-feea-4b20-afb9-2ab34a4a4953",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "inventoryPrefab",
+            "scope": "CLASS",
+            "x": 0.07472992992362747,
+            "y": 660.9553533819078
+        },
+        {
+            "type": "ScriptNode",
+            "id": "974ded4c-b09a-4ed0-ad2d-3f0ddb9445a1",
+            "label": "cameraScriptNode",
+            "scope": "CLASS",
+            "components": [
+                "GameCameraComponent"
+            ],
+            "GameCameraComponent.player": "player"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "d0799c35-babf-48c3-bcd2-42ae35ad75fc",
+            "type": "Tilemap",
+            "label": "harvestSceneMap",
+            "key": "HarvestSceneMap",
+            "tilesets": [
+                {
+                    "name": "MultiTileset",
+                    "imageKey": "MultiTileset"
+                },
+                {
+                    "name": "GroundTileset",
+                    "imageKey": "GroundTileset"
+                },
+                {
+                    "name": "PixelFarmTileset",
+                    "imageKey": "PixelFarmTileset"
+                }
+            ]
+        },
+        {
+            "id": "e4459b36-0546-4425-a30e-d7cc783f26c5",
+            "type": "Collider",
+            "label": "PlayerTerrainCollider",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "terrainLayer"
+        },
+        {
+            "id": "7c8f2563-7bd1-46f4-845e-73faf85aca1c",
+            "type": "Collider",
+            "label": "PlayerFarmingAreaCollider",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "farmingLayer"
+        },
+        {
+            "id": "998c3de8-c3cf-45e8-8266-6da616435d19",
+            "type": "Keyboard.Key",
+            "label": "spaceKey"
+        },
+        {
+            "id": "ec742ffb-0911-455c-8ff3-ecfaee9db576",
+            "type": "Keyboard.Key",
+            "label": "numberOneKey",
+            "keyCode": "ONE"
+        },
+        {
+            "id": "8310d1c4-5ab7-4f73-943a-da4b469ab5e6",
+            "type": "Keyboard.Key",
+            "label": "numberTwoKey",
+            "keyCode": "TWO"
+        },
+        {
+            "id": "03f8b1c4-8c45-4751-88e1-01dadb48acae",
+            "type": "Keyboard.Key",
+            "label": "numberThreeKey",
+            "keyCode": "THREE"
+        },
+        {
+            "id": "2ca9c531-ddcf-4df2-ae5b-f5870e1581ef",
+            "type": "Collider",
+            "label": "PlayerTreeCollider",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "trees"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "02d3b7f9-dcb2-4d36-aee0-249e400fb403",
+            "label": "fibers",
+            "objectIds": [
+                "426a4409-ab9e-428a-92e6-ed269cec003a",
+                "ef3dcdd5-5989-429a-acf2-de3a02dc20fb"
+            ]
+        },
+        {
+            "id": "bd4501ec-de11-4143-885a-c8c59ac219d7",
+            "label": "trees",
+            "objectIds": [
+                "cae7448a-ae3a-41d8-9812-edd717aac832",
+                "2c07a345-0166-4781-8fd7-560ab536b9a2",
+                "cd3f177c-555d-4d21-8e0a-1071d6fa1d50"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,916 @@
+{
+    "id": "4c08108e-0c2f-48ce-b9c4-b6d43aa39591",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 960,
+        "borderHeight": 540
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bf688b93-7ef0-4d72-ba35-c4eb9ca329f3",
+            "label": "container_1",
+            "x": 124.04125698314189,
+            "y": 114.26145439260618,
+            "scaleX": 1.036914516890823,
+            "scaleY": 1.036914516890823,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "ec454657-2b60-4c84-a191-5c2548176023",
+                    "label": "mainContainer",
+                    "scope": "CLASS",
+                    "x": 23.668842028905804,
+                    "y": 12.972739665512044,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "69803183-ed66-4a07-8ab5-4233f846fb83",
+                            "label": "hudBackgrounds",
+                            "texture": {
+                                "key": "HudBackgrounds"
+                            },
+                            "x": 315.9772834777832,
+                            "y": 141.68901824951172,
+                            "scaleX": 0.35385381715494524,
+                            "scaleY": 0.26954429370933575
+                        },
+                        {
+                            "type": "Container",
+                            "id": "e02ee02c-014e-4089-856b-7a2748cb38d5",
+                            "label": "innerInventoryContainer",
+                            "y": 16.049514770507812,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "e1c6111a-6d90-435f-89da-94088b0111e1",
+                                    "label": "hudInventoryBackground",
+                                    "texture": {
+                                        "key": "HudInventoryBackground"
+                                    },
+                                    "x": 313.7776131306897,
+                                    "y": 125.08558024345146,
+                                    "scaleX": 0.3268412820198059,
+                                    "scaleY": 0.22974897000922537
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "82964219-8b26-4181-b6f5-cefb38baed7c",
+                                    "label": "itemSlotsContainer",
+                                    "scope": "CLASS",
+                                    "x": 15.483273989897505,
+                                    "y": 40.56859154616923,
+                                    "list": [
+                                        {
+                                            "type": "Container",
+                                            "id": "3ad2b8e1-5cfa-447f-9ee3-baa2e004e478",
+                                            "label": "hudSlot",
+                                            "scope": "CLASS",
+                                            "x": 259,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "f9cc713a-7865-4afe-b9b3-a54b2ab34cdc",
+                                                    "label": "hudInventoryBox",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "153e1d29-c400-4991-950f-f1de648fa58e",
+                                                    "label": "hudSlotItem",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "00ddb47a-9281-4538-a136-0fdfb9475b5e",
+                                            "label": "hudSlot_1",
+                                            "scope": "CLASS",
+                                            "x": 332,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "66deeb4e-1024-4d38-81a1-f3b97b51a024",
+                                                    "label": "hudInventoryBox_1",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "c7d9e82a-f5d1-489d-8a05-a9c58bd8334f",
+                                                    "label": "hudSlotItem_1",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "1188b2ec-39c4-41ca-aca7-165824387378",
+                                            "label": "hudSlot_2",
+                                            "scope": "CLASS",
+                                            "x": 551,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "b79f378c-12b1-46e1-aef8-a2551c6703f9",
+                                                    "label": "hudInventoryBox_2",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "168103c8-fa80-484c-8901-079566c36896",
+                                                    "label": "hudSlotItem_2",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "6a021c6d-b923-4df3-91ba-e74519060186",
+                                            "label": "hudSlot_3",
+                                            "scope": "CLASS",
+                                            "x": 40,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "9f79c0fa-b8a1-4fef-9bd2-447cde3107b9",
+                                                    "label": "hudInventoryBox_3",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "e6cf9159-154e-4b82-bd98-123e727006bb",
+                                                    "label": "hudSlotItem_3",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "10da1ee7-45bc-4e20-ad81-f533e0af2711",
+                                            "label": "hudSlot_4",
+                                            "scope": "CLASS",
+                                            "x": 186,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "5635de53-1ed2-4968-84a2-1f58daa0dbe9",
+                                                    "label": "hudInventoryBox_4",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "0db4779a-8501-43f2-af48-2ed8a160a207",
+                                                    "label": "hudSlotItem_4",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "e394f3c6-3bc0-4b7f-8bbb-18118f570504",
+                                            "label": "hudSlot_5",
+                                            "scope": "CLASS",
+                                            "x": 186,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "a809139f-1dd0-41f8-81fc-bfa2459efa8d",
+                                                    "label": "hudInventoryBox_5",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "761c1b6d-7567-4d10-9831-85088ecf11bf",
+                                                    "label": "hudSlotItem_5",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "7b4114d0-8012-4d6e-b6b8-7c463f86a83f",
+                                            "label": "hudSlot_6",
+                                            "scope": "CLASS",
+                                            "x": 113,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "efd2260e-1d98-4717-8154-1778d45fb1f6",
+                                                    "label": "hudInventoryBox_6",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "83019361-c8a4-415b-8cfb-4877cef3a63c",
+                                                    "label": "hudSlotItem_6",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "47558c6a-0ed7-4941-8bc4-92875b2e14f9",
+                                            "label": "hudSlot_7",
+                                            "scope": "CLASS",
+                                            "x": 405,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "89c3cf73-02ef-4a50-ab9b-2ffa9f923298",
+                                                    "label": "hudInventoryBox_7",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "582eb401-eb16-4b95-9801-53f4613e5f8e",
+                                                    "label": "hudSlotItem_7",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "019438b0-3cb8-4207-8e6a-c62216eb26da",
+                                            "label": "hudSlot_8",
+                                            "scope": "CLASS",
+                                            "x": 259,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "fffe4cef-6a35-46bf-a52c-9d1cea212bf8",
+                                                    "label": "hudInventoryBox_8",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "43002487-5f03-4989-bb52-bf89bbadcad9",
+                                                    "label": "hudSlotItem_8",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "63716ff9-9ce8-407c-a3c9-334b8449e265",
+                                            "label": "hudSlot_9",
+                                            "scope": "CLASS",
+                                            "x": 113,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "917c6922-c420-4824-85f5-877a2ab9c39e",
+                                                    "label": "hudInventoryBox_9",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "b636102c-0198-4870-a8d4-1f7503b784a2",
+                                                    "label": "hudSlotItem_9",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "4934a293-32c3-4134-8799-80a257ef909c",
+                                            "label": "hudSlot_10",
+                                            "scope": "CLASS",
+                                            "x": 186,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "d97035aa-1ebe-4f34-8113-df8dd451f89b",
+                                                    "label": "hudInventoryBox_10",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "28d5b761-44ee-441b-9c59-1cfa07726794",
+                                                    "label": "hudSlotItem_10",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "f5629bef-a7d8-4a03-b239-56af7b73bda3",
+                                            "label": "hudSlot_11",
+                                            "scope": "CLASS",
+                                            "x": 405,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "99377f62-6615-40d4-b98b-64eb57e3ccc5",
+                                                    "label": "hudInventoryBox_11",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "82bd6267-5d75-4d37-853d-75812581bb8d",
+                                                    "label": "hudSlotItem_11",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "301077a8-8dce-4116-970d-2b698379e241",
+                                            "label": "hudSlot_12",
+                                            "scope": "CLASS",
+                                            "x": 405,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "192461b2-8c83-47e9-9875-c28072840572",
+                                                    "label": "hudInventoryBox_12",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "0e117fff-c4f0-456a-a48c-5aee423562a9",
+                                                    "label": "hudSlotItem_12",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "43b34644-3649-4745-9bb5-57c899aa24c5",
+                                            "label": "hudSlot_13",
+                                            "scope": "CLASS",
+                                            "x": 551,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "a51f2e68-4aa9-4c45-9160-b3ca95ae8de8",
+                                                    "label": "hudInventoryBox_13",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "997eca95-7e4c-4c15-9366-8d78db1f6bd7",
+                                                    "label": "hudSlotItem_13",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "c1d4b28e-90e3-4e29-8572-c5df5288706e",
+                                            "label": "hudSlot_14",
+                                            "scope": "CLASS",
+                                            "x": 478,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "3fe6531d-89e6-4a0d-9f91-741c6a81d131",
+                                                    "label": "hudInventoryBox_14",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "2e75f41e-b69a-48bb-bc63-da1a0edeac4b",
+                                                    "label": "hudSlotItem_14",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "0a48d21b-1767-4430-9b3f-271c7e56b149",
+                                            "label": "hudSlot_15",
+                                            "scope": "CLASS",
+                                            "x": 40,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "b7b895bc-a0c4-4584-b433-aa8729e0824b",
+                                                    "label": "hudInventoryBox_15",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "3e482beb-908e-4208-89dc-bbf6d1eb1b8b",
+                                                    "label": "hudSlotItem_15",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "48bd6732-8d70-4085-b455-ea96725b3bec",
+                                            "label": "hudSlot_16",
+                                            "scope": "CLASS",
+                                            "x": 40,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "7b1c6019-766b-44de-9ba7-a2e1d68b94e0",
+                                                    "label": "hudInventoryBox_16",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "d1813379-6cd4-4a68-95cd-a19961b6774f",
+                                                    "label": "hudSlotItem_16",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "1280cf97-023e-48ef-a291-536875143a83",
+                                            "label": "hudSlot_17",
+                                            "scope": "CLASS",
+                                            "x": 332,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "3a832360-4029-4cd7-99cc-9f2de9a705a7",
+                                                    "label": "hudInventoryBox_17",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "1c664bad-e797-42c7-9ebb-65aa370ad836",
+                                                    "label": "hudSlotItem_17",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "f57a35bf-f152-4dd7-946d-651f47b83519",
+                                            "label": "hudSlot_18",
+                                            "scope": "CLASS",
+                                            "x": 551,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "6d4843a8-2d60-479b-bb54-cc856270b2df",
+                                                    "label": "hudInventoryBox_18",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "29bd87a4-111c-4b18-a075-b68bc66b7a18",
+                                                    "label": "hudSlotItem_18",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "cea10871-a998-4c99-8c93-5fec88d2a424",
+                                            "label": "hudSlot_19",
+                                            "scope": "CLASS",
+                                            "x": 113,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "fc34e65a-5d04-4896-86b0-567e59f7183f",
+                                                    "label": "hudInventoryBox_19",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "d421c10c-ceb6-4444-92f9-513d69ed3189",
+                                                    "label": "hudSlotItem_19",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "5f677ed6-a9e0-4b45-b14d-1327026fba24",
+                                            "label": "hudSlot_20",
+                                            "scope": "CLASS",
+                                            "x": 478,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "a74dd1fe-1780-4724-b958-f73f9ac6693a",
+                                                    "label": "hudInventoryBox_20",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "b3fa985f-0d5d-47d7-bc6e-f75cfc15ea79",
+                                                    "label": "hudSlotItem_20",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "5bf22e53-c527-49f7-adee-45447593081b",
+                                            "label": "hudSlot_21",
+                                            "scope": "CLASS",
+                                            "x": 332,
+                                            "y": 12,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "92d493c8-5bb6-4a92-b37c-4e99ecdd6a63",
+                                                    "label": "hudInventoryBox_21",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "c354acd2-e0d4-4b08-8652-2ae85de6d94f",
+                                                    "label": "hudSlotItem_21",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "2d6ecd4c-a20d-4389-a3bc-8de80101b29e",
+                                            "label": "hudSlot_22",
+                                            "scope": "CLASS",
+                                            "x": 478,
+                                            "y": 158,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "50b70c7a-c322-4298-9aa2-e38d7561e73a",
+                                                    "label": "hudInventoryBox_22",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "5ad31798-a530-47c5-af5a-42ee422162dc",
+                                                    "label": "hudSlotItem_22",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "id": "6c15ba32-22f8-4ee1-baaf-17fea12bdb96",
+                                            "label": "hudSlot_23",
+                                            "scope": "CLASS",
+                                            "x": 259,
+                                            "y": 85,
+                                            "list": [
+                                                {
+                                                    "type": "Image",
+                                                    "id": "e2b089ad-afcb-426f-acf3-c09985f41a41",
+                                                    "label": "hudInventoryBox_23",
+                                                    "scope": "CLASS",
+                                                    "texture": {
+                                                        "key": "HudInventoryBox"
+                                                    },
+                                                    "x": 1,
+                                                    "scaleX": 0.5,
+                                                    "scaleY": 0.5
+                                                },
+                                                {
+                                                    "type": "Sprite",
+                                                    "id": "0156eb55-a4c2-4828-b24d-ae54a0557bf5",
+                                                    "label": "hudSlotItem_23",
+                                                    "scope": "CLASS",
+                                                    "texture": {},
+                                                    "y": 2
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1527fd87-8f69-4881-9dce-7ee03bc73b74",
+                            "label": "exitButtonSprite",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "HudExitButtons",
+                                "frame": 0
+                            },
+                            "x": 650.1577033996582,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "5c3d6397-f007-429b-b30f-f5558fd60e0d",
+            "label": "itemSlots",
+            "objectIds": [
+                "a2e439da-848c-4deb-9244-eee8517190ad",
+                "c5613c3f-f8d3-46fa-bb2f-697496955cc5",
+                "c5a5d23f-7910-4982-aaa1-30a98f517481",
+                "2e4f0b02-2621-4c96-b9d8-afa77eee4438",
+                "efecf799-cea3-4da8-a730-e8dd09e83438",
+                "42ca1c7e-2514-4613-b591-ef0baa4645c5",
+                "18fb3b3b-b50d-4362-bc9e-94f5cd5a7298",
+                "d529eb16-b6b9-481f-a744-95178b9f1f57",
+                "c99f7b05-b95a-4aa9-a95d-6d2f597ef1d4",
+                "dafe2f89-34ff-4e2c-8d62-fdf7bf836cab",
+                "1a2d9548-d306-4625-9ce7-b776be85b3a7",
+                "bde8bf60-b759-4ba3-93e5-766c6eea2beb",
+                "ee71f95e-2806-404a-904c-e554db8ca351",
+                "c31e6eeb-89c2-4133-a88e-76f2bd0cfc5d",
+                "c92f1af2-4b2e-45d2-bdca-dc5ad9d62604",
+                "e5b2049d-3f7f-4fea-8e15-1a0788185f5f",
+                "71371049-adab-4537-80cc-065bd23a678a",
+                "ba3b5053-d877-430f-b3c4-2c2f4c963bef",
+                "375bebde-1fe3-4e12-bfb3-72d239aecb97",
+                "d295072b-e592-4726-a10a-7e162a4c0245",
+                "e0d64f3e-7779-4bdc-a704-9b34ca850a4e",
+                "e1514e40-c95a-4dea-b13d-ccf7a1338bf8",
+                "99cc609a-e927-40d0-99b1-4d893708068c",
+                "3bc05615-643e-48f5-a265-757ccad5c590",
+                "01567ac4-3b9f-4694-b594-ce79d9157778",
+                "4eeb73ab-ce7a-4c1f-b74a-ff2b6a473964",
+                "559c2f1d-f3e3-4b9b-8e93-5ec4eb5a758f",
+                "38597022-9a8f-45c9-a240-29855f741a92",
+                "02cc5c16-2b70-4411-9614-f3c184aa0f60",
+                "fc132f78-f987-48b2-ae83-741873ee9ade",
+                "ca81d954-6ee2-4a60-ac4d-5e2cacee45b3",
+                "28a195be-2c9f-4017-87a0-9579fe237095",
+                "51d07019-66e9-4e55-a3ed-2c35c23dac76",
+                "0014b67c-cbf4-4daa-87bf-cf0519ea811e",
+                "d329d185-3fed-47cb-9feb-98dffeae1866",
+                "095b1f36-cca2-4987-8439-5a8c99d5f60e",
+                "5f879b26-fa41-4b9e-85b2-d8f970809bc2",
+                "ca3ed293-49f1-4751-bfef-88d6bf8ea000",
+                "b7b895bc-a0c4-4584-b433-aa8729e0824b",
+                "917c6922-c420-4824-85f5-877a2ab9c39e",
+                "d97035aa-1ebe-4f34-8113-df8dd451f89b",
+                "f9cc713a-7865-4afe-b9b3-a54b2ab34cdc",
+                "92d493c8-5bb6-4a92-b37c-4e99ecdd6a63",
+                "89c3cf73-02ef-4a50-ab9b-2ffa9f923298",
+                "a74dd1fe-1780-4724-b958-f73f9ac6693a",
+                "6d4843a8-2d60-479b-bb54-cc856270b2df",
+                "7b1c6019-766b-44de-9ba7-a2e1d68b94e0",
+                "fc34e65a-5d04-4896-86b0-567e59f7183f",
+                "5635de53-1ed2-4968-84a2-1f58daa0dbe9",
+                "e2b089ad-afcb-426f-acf3-c09985f41a41",
+                "66deeb4e-1024-4d38-81a1-f3b97b51a024",
+                "192461b2-8c83-47e9-9875-c28072840572",
+                "3fe6531d-89e6-4a0d-9f91-741c6a81d131",
+                "b79f378c-12b1-46e1-aef8-a2551c6703f9",
+                "9f79c0fa-b8a1-4fef-9bd2-447cde3107b9",
+                "efd2260e-1d98-4717-8154-1778d45fb1f6",
+                "a809139f-1dd0-41f8-81fc-bfa2459efa8d",
+                "fffe4cef-6a35-46bf-a52c-9d1cea212bf8",
+                "3a832360-4029-4cd7-99cc-9f2de9a705a7",
+                "99377f62-6615-40d4-b98b-64eb57e3ccc5",
+                "50b70c7a-c322-4298-9aa2-e38d7561e73a",
+                "a51f2e68-4aa9-4c45-9160-b3ca95ae8de8"
+            ]
+        },
+        {
+            "id": "326a1016-e02b-4e28-a369-b05165068334",
+            "label": "ItemSlotSprites",
+            "objectIds": [
+                "3e482beb-908e-4208-89dc-bbf6d1eb1b8b",
+                "b636102c-0198-4870-a8d4-1f7503b784a2",
+                "28d5b761-44ee-441b-9c59-1cfa07726794",
+                "153e1d29-c400-4991-950f-f1de648fa58e",
+                "c354acd2-e0d4-4b08-8652-2ae85de6d94f",
+                "582eb401-eb16-4b95-9801-53f4613e5f8e",
+                "b3fa985f-0d5d-47d7-bc6e-f75cfc15ea79",
+                "29bd87a4-111c-4b18-a075-b68bc66b7a18",
+                "d1813379-6cd4-4a68-95cd-a19961b6774f",
+                "d421c10c-ceb6-4444-92f9-513d69ed3189",
+                "0db4779a-8501-43f2-af48-2ed8a160a207",
+                "0156eb55-a4c2-4828-b24d-ae54a0557bf5",
+                "c7d9e82a-f5d1-489d-8a05-a9c58bd8334f",
+                "0e117fff-c4f0-456a-a48c-5aee423562a9",
+                "2e75f41e-b69a-48bb-bc63-da1a0edeac4b",
+                "168103c8-fa80-484c-8901-079566c36896",
+                "e6cf9159-154e-4b82-bd98-123e727006bb",
+                "83019361-c8a4-415b-8cfb-4877cef3a63c",
+                "761c1b6d-7567-4d10-9831-85088ecf11bf",
+                "43002487-5f03-4989-bb52-bf89bbadcad9",
+                "1c664bad-e797-42c7-9ebb-65aa370ad836",
+                "82bd6267-5d75-4d37-853d-75812581bb8d",
+                "5ad31798-a530-47c5-af5a-42ee422162dc",
+                "997eca95-7e4c-4c15-9366-8d78db1f6bd7"
+            ]
+        }
+    ]
+}

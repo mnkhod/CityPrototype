@@ -1,0 +1,33 @@
+{
+    "id": "b78aa6b7-4a9f-43e2-97fc-dbf1b888f3d7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2080,
+        "borderHeight": 2080
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "3fc04df0-3773-4f51-a304-8f028c5b4c8d",
+            "label": "sprite_1",
+            "texture": {
+                "key": "Flower",
+                "frame": 0
+            },
+            "x": 736,
+            "y": 445,
+            "animationPlayMethod": 1,
+            "animationKey": "BasicFlowerAnim"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

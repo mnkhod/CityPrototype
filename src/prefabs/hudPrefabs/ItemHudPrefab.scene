@@ -1,0 +1,208 @@
+{
+    "id": "bfd2e8a8-fb50-4c16-91b4-ed2854b81109",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 350,
+        "borderHeight": 85
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "02f1b8d5-aa10-4f00-9ecf-f16601d0a142",
+            "label": "container_1",
+            "components": [
+                "LevelHudComponent"
+            ],
+            "y": -1,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "6855ad53-450f-4c50-a7b2-562557eb9624",
+                    "label": "backpack",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Backpack",
+                        "frame": 0
+                    },
+                    "x": 307.6,
+                    "y": 42.5,
+                    "scaleX": 1.3,
+                    "scaleY": 1.3,
+                    "animationKey": "BackpackAnim"
+                },
+                {
+                    "type": "Container",
+                    "id": "03874bf0-ebcb-4955-98ff-7f2ac25587ba",
+                    "label": "itemBox1",
+                    "x": 33,
+                    "y": 42.04399995727539,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "9101ec99-4b40-4b03-9882-bff0d8381519",
+                            "label": "itemSlotBox1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "HudItemSlot",
+                                "frame": 0
+                            },
+                            "x": 1
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "90c1a35a-29b3-4e13-b694-fd7808831fb6",
+                            "label": "item1",
+                            "scope": "CLASS",
+                            "texture": {}
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9bde7ff0-9abd-4d9f-8e5a-de56dd2fc46a",
+                            "label": "itemCounter1",
+                            "scope": "CLASS",
+                            "x": 17.54401397705078,
+                            "y": 12.664440155029297,
+                            "text": "0",
+                            "fontSize": "10px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c47fc0a4-35a2-438d-9225-c94be9a9a151",
+                    "label": "itemBox2",
+                    "x": 100,
+                    "y": 42.04399995727539,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "7764054d-6830-435e-a81d-ec68a7227bd7",
+                            "label": "itemSlotBox2",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "HudItemSlot",
+                                "frame": 0
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "9cf10729-073e-4f60-b6cc-16ade5667b63",
+                            "label": "item2",
+                            "scope": "CLASS",
+                            "texture": {}
+                        },
+                        {
+                            "type": "Text",
+                            "id": "52fc4c9c-2ca5-4dde-bf4b-301ad6187039",
+                            "label": "itemCounter2",
+                            "scope": "CLASS",
+                            "x": 16.54401397705078,
+                            "y": 12.664440155029297,
+                            "text": "0",
+                            "fontSize": "10px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "797e8135-fd7e-48a4-bcd9-5e4a57051fec",
+                    "label": "itemBox3",
+                    "x": 166,
+                    "y": 41.04399995727539,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "f1206d77-2cc5-4742-b741-85484614c66f",
+                            "label": "itemSlotBox3",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "HudItemSlot",
+                                "frame": 0
+                            },
+                            "y": 1
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "93528e85-ef17-422e-989e-f7c002b15dc5",
+                            "label": "item3",
+                            "scope": "CLASS",
+                            "texture": {}
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b6d934d1-6a75-4491-a408-a62da075e652",
+                            "label": "itemCounter3",
+                            "scope": "CLASS",
+                            "x": 17.544021606445312,
+                            "y": 13.664440155029297,
+                            "text": "0",
+                            "fontSize": "10px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "74725c67-939a-4442-92a2-880cc7be81a2",
+                    "label": "itemBox4",
+                    "x": 232,
+                    "y": 41.04399995727539,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "623eff25-2eb6-4b84-be8a-04fff134fbe1",
+                            "label": "itemSlotBox4",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "HudItemSlot",
+                                "frame": 0
+                            },
+                            "y": 1
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "bb6f05be-82b7-4821-9dd2-3eaf0d66ccb3",
+                            "label": "item4",
+                            "scope": "CLASS",
+                            "texture": {}
+                        },
+                        {
+                            "type": "Text",
+                            "id": "cf9e7137-7123-46b5-a82e-dfb99b9fbb4f",
+                            "label": "itemCounter4",
+                            "scope": "CLASS",
+                            "x": 17,
+                            "y": 14,
+                            "text": "0",
+                            "fontSize": "10px"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "inventory",
+            "label": "Inventory",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

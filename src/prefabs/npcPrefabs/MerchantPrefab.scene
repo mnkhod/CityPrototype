@@ -1,0 +1,56 @@
+{
+    "id": "bb12d275-288a-433c-9be5-248c7572054a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2080,
+        "borderHeight": 2080
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "8992a35b-25e0-4920-81c4-681a0fd76974",
+            "label": "merchantNpc",
+            "components": [
+                "NpcComponent"
+            ],
+            "NpcComponent.onConversationComplete": "() => console.log(\"default\")",
+            "texture": {
+                "key": "Merchant",
+                "frame": 0
+            },
+            "x": 483,
+            "y": 204,
+            "originX": 0,
+            "originY": 0,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "allowGravity": false,
+            "body.width": 48,
+            "body.height": 64,
+            "animationPlayMethod": 1,
+            "animationKey": "MerchantIdleAnim"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "msg",
+            "label": "Message",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

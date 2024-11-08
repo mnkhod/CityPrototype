@@ -1,0 +1,324 @@
+{
+    "id": "93bd6069-da2d-4106-98ca-a7bbf378c237",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "FishingScene",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "a279ab96-aa71-49f5-9917-957a22e5d40e",
+            "label": "seaLayer",
+            "scope": "CLASS",
+            "y": -68,
+            "tilemapId": "2a3bcf46-0fd1-4ff9-a087-371f2671a1ba",
+            "layerName": "Sea",
+            "tilesets": [
+                "GroundTileset",
+                "MultiTileset",
+                "fishing deck",
+                "FishingTilset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "94340af3-ad7c-490e-8cfc-dca35ad985ab",
+            "label": "terrainLayer",
+            "scope": "CLASS",
+            "y": -68,
+            "tilemapId": "2a3bcf46-0fd1-4ff9-a087-371f2671a1ba",
+            "layerName": "Terrain",
+            "tilesets": [
+                "GroundTileset",
+                "MultiTileset",
+                "fishing deck",
+                "FishingTilset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "decfb120-efd9-461e-8cc5-498a3fb574fb",
+            "label": "fishingPondLayer",
+            "scope": "CLASS",
+            "y": -71,
+            "tilemapId": "2a3bcf46-0fd1-4ff9-a087-371f2671a1ba",
+            "layerName": "FishingPond",
+            "tilesets": [
+                "GroundTileset",
+                "MultiTileset",
+                "fishing deck",
+                "FishingTilset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "db3b44bf-0c59-44c4-b8ca-10a556198532",
+            "label": "fishingDeckLayer",
+            "scope": "CLASS",
+            "y": -70,
+            "tilemapId": "2a3bcf46-0fd1-4ff9-a087-371f2671a1ba",
+            "layerName": "FishingDeck",
+            "tilesets": [
+                "GroundTileset",
+                "MultiTileset",
+                "fishing deck",
+                "FishingTilset"
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "fc2d1f21-4ae2-4fad-bccf-01717971b9c0",
+            "label": "playerCryptoAddress",
+            "scope": "CLASS",
+            "components": [
+                "PlayerCryptoAddressComponent"
+            ],
+            "PlayerCryptoAddressComponent.player": "improvedPlayer",
+            "x": 34,
+            "y": 7,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "New text",
+            "fontSize": "14px"
+        },
+        {
+            "prefabId": "de8e13c8-57c8-4143-9374-0da399f76dee",
+            "id": "908e2b7c-efc5-48e8-b70d-9d113c2a31ed",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "improvedPlayer",
+            "scope": "CLASS",
+            "components": [
+                "PlayerMovementComponent"
+            ],
+            "x": 787,
+            "y": 589
+        },
+        {
+            "prefabId": "6812f01d-bbd6-4080-8248-749ab8676ab7",
+            "id": "22c4f793-9097-44aa-b6c6-382794917709",
+            "unlock": [
+                "x",
+                "y",
+                "NpcComponent.player",
+                "NpcComponent.npcMessage",
+                "NpcComponent.msgContainer",
+                "NpcComponent.onConversationComplete"
+            ],
+            "label": "fisherPrefab",
+            "scope": "CLASS",
+            "NpcComponent.player": "improvedPlayer",
+            "NpcComponent.msgContainer": "npcMsgPrefab",
+            "NpcComponent.npcMessage": "Hello World",
+            "NpcComponent.onConversationComplete": "() => this.onNpcInteractionDone()",
+            "x": 774,
+            "y": 383
+        },
+        {
+            "type": "Container",
+            "id": "0d80acb6-3762-404f-b8a4-42218e7f1e75",
+            "label": "fishingAreaContainer",
+            "x": 974,
+            "y": 492,
+            "scaleY": 1.68,
+            "list": [
+                {
+                    "prefabId": "376ad9cb-2e3a-45c8-8145-34e1f741a595",
+                    "id": "7faff54f-ea69-4e78-9743-20ddf047483c",
+                    "unlock": [
+                        "player",
+                        "alert",
+                        "itemHud",
+                        "scaleX",
+                        "scaleY",
+                        "x",
+                        "y",
+                        "fishingGameHud"
+                    ],
+                    "label": "fishingAreaPrefab",
+                    "player": "improvedPlayer",
+                    "alert": "alertPrefab",
+                    "itemHud": "itemHudPrefab",
+                    "fishingGameHud": "fishingGameHudPrefab",
+                    "x": 66,
+                    "y": -2,
+                    "scaleX": 1,
+                    "scaleY": 0.5
+                },
+                {
+                    "prefabId": "376ad9cb-2e3a-45c8-8145-34e1f741a595",
+                    "id": "1b3dbbd8-c3df-49c5-a96c-ccdfe92bf151",
+                    "unlock": [
+                        "player",
+                        "alert",
+                        "itemHud",
+                        "scaleX",
+                        "scaleY",
+                        "x",
+                        "y",
+                        "fishingGameHud"
+                    ],
+                    "label": "fishingAreaPrefab_1",
+                    "player": "improvedPlayer",
+                    "alert": "alertPrefab",
+                    "itemHud": "itemHudPrefab",
+                    "fishingGameHud": "fishingGameHudPrefab",
+                    "x": 3,
+                    "y": 17,
+                    "scaleX": 1,
+                    "scaleY": 0.5
+                },
+                {
+                    "prefabId": "376ad9cb-2e3a-45c8-8145-34e1f741a595",
+                    "id": "91f91097-ad84-4170-8245-a469af673b60",
+                    "unlock": [
+                        "player",
+                        "alert",
+                        "itemHud",
+                        "scaleX",
+                        "scaleY",
+                        "x",
+                        "y",
+                        "fishingGameHud"
+                    ],
+                    "label": "fishingAreaPrefab_2",
+                    "player": "improvedPlayer",
+                    "alert": "alertPrefab",
+                    "itemHud": "itemHudPrefab",
+                    "fishingGameHud": "fishingGameHudPrefab",
+                    "x": 66,
+                    "y": 74,
+                    "scaleX": 1,
+                    "scaleY": 0.5
+                }
+            ]
+        },
+        {
+            "prefabId": "bfd2e8a8-fb50-4c16-91b4-ed2854b81109",
+            "id": "a24894db-604f-4582-92c4-a050d696c484",
+            "unlock": [
+                "x",
+                "y",
+                "LevelHudComponent.player"
+            ],
+            "label": "itemHudPrefab",
+            "scope": "CLASS",
+            "LevelHudComponent.player": "improvedPlayer",
+            "x": 1570.8,
+            "y": 995.9
+        },
+        {
+            "prefabId": "d5c174c8-e64c-4871-96de-59ed8f80e811",
+            "id": "507723fe-2940-42db-9aa6-f1c897f8166e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "npcMsgPrefab",
+            "x": -0.6837199991510943,
+            "y": -0.18994558508859427
+        },
+        {
+            "prefabId": "117e2301-2d0b-499a-a393-5f11cc727482",
+            "id": "0f9d7c4e-b37b-4b8d-b7b4-d6e236c02199",
+            "unlock": [
+                "x",
+                "y",
+                "player"
+            ],
+            "label": "playerStatPrefab",
+            "scope": "CLASS",
+            "player": "improvedPlayer",
+            "x": 2.597965656686199,
+            "y": 3.943157154532116
+        },
+        {
+            "prefabId": "e8fb5036-6f22-45ff-b701-31e84070a020",
+            "id": "ccdc7bcf-fdc1-4bf6-aba3-37b787230f64",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "alertPrefab",
+            "scope": "CLASS",
+            "x": 1760.4925841618367,
+            "y": -0.007413930814664127
+        },
+        {
+            "prefabId": "8679939f-98e6-4617-be9c-4f74b8b61be0",
+            "id": "b42797bc-b744-4454-8d6c-19f7477f5ce7",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "player",
+                "alert"
+            ],
+            "label": "fishingGameHudPrefab",
+            "scope": "CLASS",
+            "player": "improvedPlayer",
+            "alert": "alertPrefab",
+            "x": 0,
+            "y": 875.1999969482422,
+            "scaleX": 1,
+            "scaleY": 0.8
+        },
+        {
+            "type": "ScriptNode",
+            "id": "c900dcb1-840b-4f99-bf9a-adc178cdf01c",
+            "label": "gameCameraScript",
+            "components": [
+                "GameCameraComponent"
+            ],
+            "GameCameraComponent.player": "improvedPlayer"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "2a3bcf46-0fd1-4ff9-a087-371f2671a1ba",
+            "type": "Tilemap",
+            "label": "fishingSceneMap",
+            "key": "FishingSceneMap",
+            "tilesets": [
+                {
+                    "name": "GroundTileset",
+                    "imageKey": "GroundTileset"
+                },
+                {
+                    "name": "MultiTileset",
+                    "imageKey": "MultiTileset"
+                },
+                {
+                    "name": "fishing deck",
+                    "imageKey": "Fishing Deck"
+                },
+                {
+                    "name": "FishingTilset",
+                    "imageKey": "FishingTilset"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "a82b4688-b840-4c29-b142-449a333bd29a",
+            "label": "fishingAreaList",
+            "objectIds": [
+                "7faff54f-ea69-4e78-9743-20ddf047483c"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "id": "8679939f-98e6-4617-be9c-4f74b8b61be0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2080,
+        "borderHeight": 2080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "345e216e-4a31-447b-a269-685d7ebd50f2",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "698b8c4b-279c-400f-b727-4c9583372ad5",
+                    "label": "captureHeightBox",
+                    "scope": "CLASS",
+                    "x": 72.00000461312914,
+                    "y": 26.59999933833491,
+                    "scaleX": 0.17824140122640697,
+                    "scaleY": 1.6,
+                    "originY": 0,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "793d252d-d15d-49ec-9e22-39f654f07c15",
+                    "label": "background",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "FishingHudBackground"
+                    },
+                    "x": 64,
+                    "y": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "28622a77-da3a-4db2-bcc3-853429d56559",
+                    "label": "fishCaptureContainer",
+                    "scope": "CLASS",
+                    "x": 72,
+                    "y": 50,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "53df7565-b2a1-4338-82fa-9d6f5cb1b6fc",
+                            "label": "fishCaptureBodyBox",
+                            "scope": "CLASS",
+                            "scaleX": 0.126,
+                            "scaleY": 0.3,
+                            "ArcadeComponent.active": true,
+                            "allowGravity": false,
+                            "body.width": 128,
+                            "body.height": 128,
+                            "isFilled": true,
+                            "fillColor": "#ec0000",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3be3fb83-229d-40a3-bc49-744c4d4e61e8",
+                            "label": "fishCaptureSectionBox",
+                            "scope": "CLASS",
+                            "scaleX": 0.126,
+                            "scaleY": 0.12,
+                            "isFilled": true,
+                            "fillColor": "#ffffff",
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2176dc4b-d1b7-4277-86b3-7ee12f4d8e4e",
+                    "label": "fishHudProgressBar",
+                    "scope": "CLASS",
+                    "x": 102,
+                    "y": 128,
+                    "scaleX": 0.06401954832635304,
+                    "scaleY": 1.6,
+                    "angle": -180,
+                    "isFilled": true,
+                    "fillColor": "#f0d060",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Sprite",
+                    "id": "013d824c-3ef1-446d-a220-fd558fff1883",
+                    "label": "fish",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "FishItem",
+                        "frame": 0
+                    },
+                    "x": 72,
+                    "y": 213,
+                    "scaleX": 0.75,
+                    "scaleY": 0.75,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "pushable": false,
+                    "body.width": 32,
+                    "body.height": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "303eaa0e-88fd-4c83-980d-1cd278fe0eb7",
+                    "label": "fishingHudBody",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "FishingHud"
+                    },
+                    "x": 64,
+                    "y": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "player",
+            "label": "Player",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        },
+        {
+            "name": "alert",
+            "label": "Alert",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

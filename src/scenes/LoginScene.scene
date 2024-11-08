@@ -1,0 +1,65 @@
+{
+    "id": "e0ad2c5a-4495-4beb-ad97-0d3492bff4e7",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoginScene",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "01941c15-5b82-4e3f-ae36-9e69df5d5fe9",
+            "label": "backgroundRectangle",
+            "x": 960,
+            "y": 540,
+            "scaleX": 15.836595857633629,
+            "scaleY": 8.811916879438426,
+            "isFilled": true,
+            "fillColor": "#7ec4ea",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Container",
+            "id": "802a1360-d280-42f6-8a87-f74b658b3f54",
+            "label": "loginContainer",
+            "x": 960,
+            "y": 540,
+            "scaleX": 0.7255317941581021,
+            "scaleY": 0.7255317941581021,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "20ae082f-242c-46ba-9ba3-1f877d1a436c",
+                    "label": "titleScreen",
+                    "texture": {
+                        "key": "TitleScreen"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "4e504d1f-595c-4b67-a3c6-4567398e56f0",
+                    "label": "connectButton",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ConnectButton",
+                        "frame": 0
+                    },
+                    "y": 356,
+                    "scaleX": 3.0699916582020568,
+                    "scaleY": 3.0699916582020568
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
